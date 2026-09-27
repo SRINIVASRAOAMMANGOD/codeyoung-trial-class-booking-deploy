@@ -23,7 +23,7 @@ app = FastAPI(
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "http://localhost:5173",  # Vite dev server default port
+        "https://codeyoung-trial-class-booking.vercel.app",  # Vite dev server default port
     ],
     allow_credentials=True,
     allow_methods=["*"],
