@@ -15,6 +15,16 @@ This independent recruitment-assessment demonstration models a trial-class booki
 
 The project is intentionally scoped as a focused assessment implementation, not as the official Codeyoung website or a production platform.
 
+## Live Demo
+
+**Live Application:**  
+https://codeyoung-trial-class-booking.vercel.app
+
+**Backend API:**  
+https://codeyoung-trial-class-booking-deploy.onrender.com
+
+> Note: The backend is hosted on Render's free tier and may take a short time to wake up after inactivity.
+
 ## 2. Assignment Requirements
 
 | Assignment Requirement | Implementation | Evidence/Location |
@@ -114,6 +124,8 @@ The assignment describes around 20 interested parents per day as demand/context,
   - Data & Analytics
 
 ## 4. Application Architecture
+
+![Application Architecture](documentation/images/architecture.png)
 
 ```mermaid
 flowchart LR
@@ -215,6 +227,8 @@ flowchart LR
 
 ## 6. System Flow
 
+![System Flow](documentation/images/system-flow.png)
+
 ```mermaid
 flowchart TD
     U[Parent] --> F[React Frontend]
@@ -263,6 +277,8 @@ flowchart TD
 *Note: The one-hour class duration, 15:00-21:00 IST anchors, and tomorrow-through-seven-days-ahead booking window are engineering/product decisions implemented by the current code, not explicitly mandated assignment requirements.*
 
 ## 9. Data Model
+
+![Data Model](documentation/images/data-model.png)
 
 ```mermaid
 flowchart TD
